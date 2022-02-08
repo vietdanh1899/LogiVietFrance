@@ -1,0 +1,9 @@
+{
+    "question": "Who am i?",
+    "answers": {
+        "a": "Danh",
+        "b": "Đức",
+        "c": "Giang"
+    },
+    "correctAnswer": "a"
+}
