@@ -12,7 +12,7 @@
         >
           <b-radio
             v-model="radio"
-            name="key"
+            name="answer"
             :native-value="key"
             :type="
               key === $options.myquestions.correctAnswer
@@ -40,7 +40,7 @@
 import questions from "../../questions";
 
 export default {
-  name: "Home",
+  name: "Quiz",
   data: function () {
     return {
       radio: "",
